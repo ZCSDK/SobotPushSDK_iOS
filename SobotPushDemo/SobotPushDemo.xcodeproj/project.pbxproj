@@ -1,0 +1,942 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6348F5B42B9E982200AF5627 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6348F5B32B9E982200AF5627 /* AppDelegate.m */; };
+		6348F5BA2B9E982200AF5627 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6348F5B92B9E982200AF5627 /* ViewController.m */; };
+		6348F5BD2B9E982200AF5627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6348F5BB2B9E982200AF5627 /* Main.storyboard */; };
+		6348F5BF2B9E982400AF5627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6348F5BE2B9E982400AF5627 /* Assets.xcassets */; };
+		6348F5C22B9E982400AF5627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6348F5C02B9E982400AF5627 /* LaunchScreen.storyboard */; };
+		6348F5C52B9E982400AF5627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6348F5C42B9E982400AF5627 /* main.m */; };
+		6348F5CF2B9E982500AF5627 /* SobotPushDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6348F5CE2B9E982500AF5627 /* SobotPushDemoTests.m */; };
+		6348F5D92B9E982500AF5627 /* SobotPushDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6348F5D82B9E982500AF5627 /* SobotPushDemoUITests.m */; };
+		6348F5DB2B9E982500AF5627 /* SobotPushDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6348F5DA2B9E982500AF5627 /* SobotPushDemoUITestsLaunchTests.m */; };
+		6348F5FA2B9E990700AF5627 /* UMCommonLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6348F5EB2B9E990700AF5627 /* UMCommonLog.framework */; };
+		6348F5FB2B9E990700AF5627 /* UMCommonLog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6348F5EC2B9E990700AF5627 /* UMCommonLog.bundle */; };
+		6348F5FC2B9E990700AF5627 /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6348F5EF2B9E990700AF5627 /* UTDID.framework */; };
+		6348F5FD2B9E990700AF5627 /* UMPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6348F5F22B9E990700AF5627 /* UMPush.framework */; };
+		6348F5FE2B9E990700AF5627 /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6348F5F62B9E990700AF5627 /* UMCommon.framework */; };
+		6348F5FF2B9E990700AF5627 /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6348F5F92B9E990700AF5627 /* UMAnalytics.framework */; };
+		6348F6012B9E993900AF5627 /* SobotPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6348F6002B9E993900AF5627 /* SobotPush.framework */; };
+		6348F60A2B9E9E5A00AF5627 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6348F6092B9E9E5A00AF5627 /* NotificationService.m */; };
+		6348F60E2B9E9E5A00AF5627 /* SobotPushNotifiactionService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6348F6062B9E9E5A00AF5627 /* SobotPushNotifiactionService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6348F6162B9EA00300AF5627 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6348F6152B9EA00300AF5627 /* CoreAudio.framework */; };
+		6348F6182B9EA00C00AF5627 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6348F6172B9EA00B00AF5627 /* CoreTelephony.framework */; };
+		6348F61C2B9EA03A00AF5627 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6348F61B2B9EA03A00AF5627 /* UserNotifications.framework */; };
+		6348F61E2B9EA04400AF5627 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6348F61D2B9EA04400AF5627 /* SystemConfiguration.framework */; };
+		6348F61F2B9EA46900AF5627 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6348F6192B9EA01900AF5627 /* libsqlite3.tbd */; };
+		6348F6202B9EA47400AF5627 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6348F61A2B9EA02900AF5627 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6348F5CB2B9E982500AF5627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6348F5A72B9E982200AF5627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6348F5AE2B9E982200AF5627;
+			remoteInfo = SobotPushDemo;
+		};
+		6348F5D52B9E982500AF5627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6348F5A72B9E982200AF5627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6348F5AE2B9E982200AF5627;
+			remoteInfo = SobotPushDemo;
+		};
+		6348F60C2B9E9E5A00AF5627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6348F5A72B9E982200AF5627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6348F6052B9E9E5A00AF5627;
+			remoteInfo = SobotPushNotifiactionService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6348F6122B9E9E5A00AF5627 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6348F60E2B9E9E5A00AF5627 /* SobotPushNotifiactionService.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6348F5AF2B9E982200AF5627 /* SobotPushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SobotPushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6348F5B22B9E982200AF5627 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6348F5B32B9E982200AF5627 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6348F5B82B9E982200AF5627 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6348F5B92B9E982200AF5627 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6348F5BC2B9E982200AF5627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6348F5BE2B9E982400AF5627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6348F5C12B9E982400AF5627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6348F5C32B9E982400AF5627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6348F5C42B9E982400AF5627 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6348F5CA2B9E982500AF5627 /* SobotPushDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SobotPushDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6348F5CE2B9E982500AF5627 /* SobotPushDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SobotPushDemoTests.m; sourceTree = "<group>"; };
+		6348F5D42B9E982500AF5627 /* SobotPushDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SobotPushDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6348F5D82B9E982500AF5627 /* SobotPushDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SobotPushDemoUITests.m; sourceTree = "<group>"; };
+		6348F5DA2B9E982500AF5627 /* SobotPushDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SobotPushDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		6348F5E72B9E987900AF5627 /* SobotPushDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SobotPushDemo.entitlements; sourceTree = "<group>"; };
+		6348F5EB2B9E990700AF5627 /* UMCommonLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommonLog.framework; sourceTree = "<group>"; };
+		6348F5EC2B9E990700AF5627 /* UMCommonLog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMCommonLog.bundle; sourceTree = "<group>"; };
+		6348F5EF2B9E990700AF5627 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTDID.framework; sourceTree = "<group>"; };
+		6348F5F22B9E990700AF5627 /* UMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMPush.framework; sourceTree = "<group>"; };
+		6348F5F62B9E990700AF5627 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		6348F5F92B9E990700AF5627 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		6348F6002B9E993900AF5627 /* SobotPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SobotPush.framework; sourceTree = "<group>"; };
+		6348F6062B9E9E5A00AF5627 /* SobotPushNotifiactionService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SobotPushNotifiactionService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6348F6082B9E9E5A00AF5627 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		6348F6092B9E9E5A00AF5627 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		6348F60B2B9E9E5A00AF5627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6348F6132B9E9E7D00AF5627 /* SobotPushNotifiactionService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SobotPushNotifiactionService.entitlements; sourceTree = "<group>"; };
+		6348F6152B9EA00300AF5627 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		6348F6172B9EA00B00AF5627 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6348F6192B9EA01900AF5627 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6348F61A2B9EA02900AF5627 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6348F61B2B9EA03A00AF5627 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		6348F61D2B9EA04400AF5627 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6348F5AC2B9E982200AF5627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6348F6162B9EA00300AF5627 /* CoreAudio.framework in Frameworks */,
+				6348F6202B9EA47400AF5627 /* libz.tbd in Frameworks */,
+				6348F6012B9E993900AF5627 /* SobotPush.framework in Frameworks */,
+				6348F5FA2B9E990700AF5627 /* UMCommonLog.framework in Frameworks */,
+				6348F5FE2B9E990700AF5627 /* UMCommon.framework in Frameworks */,
+				6348F6182B9EA00C00AF5627 /* CoreTelephony.framework in Frameworks */,
+				6348F61C2B9EA03A00AF5627 /* UserNotifications.framework in Frameworks */,
+				6348F61E2B9EA04400AF5627 /* SystemConfiguration.framework in Frameworks */,
+				6348F5FC2B9E990700AF5627 /* UTDID.framework in Frameworks */,
+				6348F5FF2B9E990700AF5627 /* UMAnalytics.framework in Frameworks */,
+				6348F61F2B9EA46900AF5627 /* libsqlite3.tbd in Frameworks */,
+				6348F5FD2B9E990700AF5627 /* UMPush.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348F5C72B9E982500AF5627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348F5D12B9E982500AF5627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348F6032B9E9E5A00AF5627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6348F5A62B9E982200AF5627 = {
+			isa = PBXGroup;
+			children = (
+				6348F5B12B9E982200AF5627 /* SobotPushDemo */,
+				6348F5CD2B9E982500AF5627 /* SobotPushDemoTests */,
+				6348F5D72B9E982500AF5627 /* SobotPushDemoUITests */,
+				6348F6072B9E9E5A00AF5627 /* SobotPushNotifiactionService */,
+				6348F5B02B9E982200AF5627 /* Products */,
+				6348F6142B9EA00300AF5627 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6348F5B02B9E982200AF5627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5AF2B9E982200AF5627 /* SobotPushDemo.app */,
+				6348F5CA2B9E982500AF5627 /* SobotPushDemoTests.xctest */,
+				6348F5D42B9E982500AF5627 /* SobotPushDemoUITests.xctest */,
+				6348F6062B9E9E5A00AF5627 /* SobotPushNotifiactionService.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6348F5B12B9E982200AF5627 /* SobotPushDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5E72B9E987900AF5627 /* SobotPushDemo.entitlements */,
+				6348F6002B9E993900AF5627 /* SobotPush.framework */,
+				6348F5E82B9E990700AF5627 /* UMeng */,
+				6348F5B22B9E982200AF5627 /* AppDelegate.h */,
+				6348F5B32B9E982200AF5627 /* AppDelegate.m */,
+				6348F5B82B9E982200AF5627 /* ViewController.h */,
+				6348F5B92B9E982200AF5627 /* ViewController.m */,
+				6348F5BB2B9E982200AF5627 /* Main.storyboard */,
+				6348F5BE2B9E982400AF5627 /* Assets.xcassets */,
+				6348F5C02B9E982400AF5627 /* LaunchScreen.storyboard */,
+				6348F5C32B9E982400AF5627 /* Info.plist */,
+				6348F5C42B9E982400AF5627 /* main.m */,
+			);
+			path = SobotPushDemo;
+			sourceTree = "<group>";
+		};
+		6348F5CD2B9E982500AF5627 /* SobotPushDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5CE2B9E982500AF5627 /* SobotPushDemoTests.m */,
+			);
+			path = SobotPushDemoTests;
+			sourceTree = "<group>";
+		};
+		6348F5D72B9E982500AF5627 /* SobotPushDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5D82B9E982500AF5627 /* SobotPushDemoUITests.m */,
+				6348F5DA2B9E982500AF5627 /* SobotPushDemoUITestsLaunchTests.m */,
+			);
+			path = SobotPushDemoUITests;
+			sourceTree = "<group>";
+		};
+		6348F5E82B9E990700AF5627 /* UMeng */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5E92B9E990700AF5627 /* umcommonlog */,
+				6348F5ED2B9E990700AF5627 /* thirdparties */,
+				6348F5F02B9E990700AF5627 /* push */,
+				6348F5F32B9E990700AF5627 /* common */,
+				6348F5F72B9E990700AF5627 /* analytics */,
+			);
+			path = UMeng;
+			sourceTree = "<group>";
+		};
+		6348F5E92B9E990700AF5627 /* umcommonlog */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5EA2B9E990700AF5627 /* umcommonlog_ios_1.0.0 */,
+			);
+			path = umcommonlog;
+			sourceTree = "<group>";
+		};
+		6348F5EA2B9E990700AF5627 /* umcommonlog_ios_1.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5EB2B9E990700AF5627 /* UMCommonLog.framework */,
+				6348F5EC2B9E990700AF5627 /* UMCommonLog.bundle */,
+			);
+			path = umcommonlog_ios_1.0.0;
+			sourceTree = "<group>";
+		};
+		6348F5ED2B9E990700AF5627 /* thirdparties */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5EE2B9E990700AF5627 /* thirdparties_ios_1.0.5 */,
+			);
+			path = thirdparties;
+			sourceTree = "<group>";
+		};
+		6348F5EE2B9E990700AF5627 /* thirdparties_ios_1.0.5 */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5EF2B9E990700AF5627 /* UTDID.framework */,
+			);
+			path = thirdparties_ios_1.0.5;
+			sourceTree = "<group>";
+		};
+		6348F5F02B9E990700AF5627 /* push */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5F12B9E990700AF5627 /* push_ios_3.2.4 */,
+			);
+			path = push;
+			sourceTree = "<group>";
+		};
+		6348F5F12B9E990700AF5627 /* push_ios_3.2.4 */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5F22B9E990700AF5627 /* UMPush.framework */,
+			);
+			path = push_ios_3.2.4;
+			sourceTree = "<group>";
+		};
+		6348F5F32B9E990700AF5627 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5F42B9E990700AF5627 /* common_ios_2.1.1 */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		6348F5F42B9E990700AF5627 /* common_ios_2.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5F52B9E990700AF5627 /* normal */,
+			);
+			path = common_ios_2.1.1;
+			sourceTree = "<group>";
+		};
+		6348F5F52B9E990700AF5627 /* normal */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5F62B9E990700AF5627 /* UMCommon.framework */,
+			);
+			path = normal;
+			sourceTree = "<group>";
+		};
+		6348F5F72B9E990700AF5627 /* analytics */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5F82B9E990700AF5627 /* analytics_ios_6.0.2 */,
+			);
+			path = analytics;
+			sourceTree = "<group>";
+		};
+		6348F5F82B9E990700AF5627 /* analytics_ios_6.0.2 */ = {
+			isa = PBXGroup;
+			children = (
+				6348F5F92B9E990700AF5627 /* UMAnalytics.framework */,
+			);
+			path = analytics_ios_6.0.2;
+			sourceTree = "<group>";
+		};
+		6348F6072B9E9E5A00AF5627 /* SobotPushNotifiactionService */ = {
+			isa = PBXGroup;
+			children = (
+				6348F6132B9E9E7D00AF5627 /* SobotPushNotifiactionService.entitlements */,
+				6348F6082B9E9E5A00AF5627 /* NotificationService.h */,
+				6348F6092B9E9E5A00AF5627 /* NotificationService.m */,
+				6348F60B2B9E9E5A00AF5627 /* Info.plist */,
+			);
+			path = SobotPushNotifiactionService;
+			sourceTree = "<group>";
+		};
+		6348F6142B9EA00300AF5627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6348F61D2B9EA04400AF5627 /* SystemConfiguration.framework */,
+				6348F61B2B9EA03A00AF5627 /* UserNotifications.framework */,
+				6348F61A2B9EA02900AF5627 /* libz.tbd */,
+				6348F6192B9EA01900AF5627 /* libsqlite3.tbd */,
+				6348F6172B9EA00B00AF5627 /* CoreTelephony.framework */,
+				6348F6152B9EA00300AF5627 /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6348F5AE2B9E982200AF5627 /* SobotPushDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6348F5DE2B9E982500AF5627 /* Build configuration list for PBXNativeTarget "SobotPushDemo" */;
+			buildPhases = (
+				6348F5AB2B9E982200AF5627 /* Sources */,
+				6348F5AC2B9E982200AF5627 /* Frameworks */,
+				6348F5AD2B9E982200AF5627 /* Resources */,
+				6348F6122B9E9E5A00AF5627 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6348F60D2B9E9E5A00AF5627 /* PBXTargetDependency */,
+			);
+			name = SobotPushDemo;
+			productName = SobotPushDemo;
+			productReference = 6348F5AF2B9E982200AF5627 /* SobotPushDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6348F5C92B9E982500AF5627 /* SobotPushDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6348F5E12B9E982500AF5627 /* Build configuration list for PBXNativeTarget "SobotPushDemoTests" */;
+			buildPhases = (
+				6348F5C62B9E982500AF5627 /* Sources */,
+				6348F5C72B9E982500AF5627 /* Frameworks */,
+				6348F5C82B9E982500AF5627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6348F5CC2B9E982500AF5627 /* PBXTargetDependency */,
+			);
+			name = SobotPushDemoTests;
+			productName = SobotPushDemoTests;
+			productReference = 6348F5CA2B9E982500AF5627 /* SobotPushDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6348F5D32B9E982500AF5627 /* SobotPushDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6348F5E42B9E982500AF5627 /* Build configuration list for PBXNativeTarget "SobotPushDemoUITests" */;
+			buildPhases = (
+				6348F5D02B9E982500AF5627 /* Sources */,
+				6348F5D12B9E982500AF5627 /* Frameworks */,
+				6348F5D22B9E982500AF5627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6348F5D62B9E982500AF5627 /* PBXTargetDependency */,
+			);
+			name = SobotPushDemoUITests;
+			productName = SobotPushDemoUITests;
+			productReference = 6348F5D42B9E982500AF5627 /* SobotPushDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6348F6052B9E9E5A00AF5627 /* SobotPushNotifiactionService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6348F60F2B9E9E5A00AF5627 /* Build configuration list for PBXNativeTarget "SobotPushNotifiactionService" */;
+			buildPhases = (
+				6348F6022B9E9E5A00AF5627 /* Sources */,
+				6348F6032B9E9E5A00AF5627 /* Frameworks */,
+				6348F6042B9E9E5A00AF5627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SobotPushNotifiactionService;
+			productName = SobotPushNotifiactionService;
+			productReference = 6348F6062B9E9E5A00AF5627 /* SobotPushNotifiactionService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6348F5A72B9E982200AF5627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6348F5AE2B9E982200AF5627 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					6348F5C92B9E982500AF5627 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6348F5AE2B9E982200AF5627;
+					};
+					6348F5D32B9E982500AF5627 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6348F5AE2B9E982200AF5627;
+					};
+					6348F6052B9E9E5A00AF5627 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 6348F5AA2B9E982200AF5627 /* Build configuration list for PBXProject "SobotPushDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6348F5A62B9E982200AF5627;
+			productRefGroup = 6348F5B02B9E982200AF5627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6348F5AE2B9E982200AF5627 /* SobotPushDemo */,
+				6348F5C92B9E982500AF5627 /* SobotPushDemoTests */,
+				6348F5D32B9E982500AF5627 /* SobotPushDemoUITests */,
+				6348F6052B9E9E5A00AF5627 /* SobotPushNotifiactionService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6348F5AD2B9E982200AF5627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6348F5C22B9E982400AF5627 /* LaunchScreen.storyboard in Resources */,
+				6348F5BF2B9E982400AF5627 /* Assets.xcassets in Resources */,
+				6348F5BD2B9E982200AF5627 /* Main.storyboard in Resources */,
+				6348F5FB2B9E990700AF5627 /* UMCommonLog.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348F5C82B9E982500AF5627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348F5D22B9E982500AF5627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348F6042B9E9E5A00AF5627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6348F5AB2B9E982200AF5627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6348F5BA2B9E982200AF5627 /* ViewController.m in Sources */,
+				6348F5B42B9E982200AF5627 /* AppDelegate.m in Sources */,
+				6348F5C52B9E982400AF5627 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348F5C62B9E982500AF5627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6348F5CF2B9E982500AF5627 /* SobotPushDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348F5D02B9E982500AF5627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6348F5D92B9E982500AF5627 /* SobotPushDemoUITests.m in Sources */,
+				6348F5DB2B9E982500AF5627 /* SobotPushDemoUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348F6022B9E9E5A00AF5627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6348F60A2B9E9E5A00AF5627 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6348F5CC2B9E982500AF5627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6348F5AE2B9E982200AF5627 /* SobotPushDemo */;
+			targetProxy = 6348F5CB2B9E982500AF5627 /* PBXContainerItemProxy */;
+		};
+		6348F5D62B9E982500AF5627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6348F5AE2B9E982200AF5627 /* SobotPushDemo */;
+			targetProxy = 6348F5D52B9E982500AF5627 /* PBXContainerItemProxy */;
+		};
+		6348F60D2B9E9E5A00AF5627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6348F6052B9E9E5A00AF5627 /* SobotPushNotifiactionService */;
+			targetProxy = 6348F60C2B9E9E5A00AF5627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6348F5BB2B9E982200AF5627 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6348F5BC2B9E982200AF5627 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6348F5C02B9E982400AF5627 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6348F5C12B9E982400AF5627 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6348F5DC2B9E982500AF5627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6348F5DD2B9E982500AF5627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6348F5DF2B9E982500AF5627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SobotPushDemo/SobotPushDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94K26P27D8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SobotPushDemo/UMeng/umcommonlog/umcommonlog_ios_1.0.0",
+					"$(PROJECT_DIR)/SobotPushDemo/UMeng/thirdparties/thirdparties_ios_1.0.5",
+					"$(PROJECT_DIR)/SobotPushDemo/UMeng/push/push_ios_3.2.4",
+					"$(PROJECT_DIR)/SobotPushDemo/UMeng/common/common_ios_2.1.1/normal",
+					"$(PROJECT_DIR)/SobotPushDemo/UMeng/analytics/analytics_ios_6.0.2",
+					"$(PROJECT_DIR)/SobotPushDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SobotPushDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.demo.SobotPushDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6348F5E02B9E982500AF5627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SobotPushDemo/SobotPushDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94K26P27D8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SobotPushDemo/UMeng/umcommonlog/umcommonlog_ios_1.0.0",
+					"$(PROJECT_DIR)/SobotPushDemo/UMeng/thirdparties/thirdparties_ios_1.0.5",
+					"$(PROJECT_DIR)/SobotPushDemo/UMeng/push/push_ios_3.2.4",
+					"$(PROJECT_DIR)/SobotPushDemo/UMeng/common/common_ios_2.1.1/normal",
+					"$(PROJECT_DIR)/SobotPushDemo/UMeng/analytics/analytics_ios_6.0.2",
+					"$(PROJECT_DIR)/SobotPushDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SobotPushDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.demo.SobotPushDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6348F5E22B9E982500AF5627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94K26P27D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.demo.SobotPushDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SobotPushDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SobotPushDemo";
+			};
+			name = Debug;
+		};
+		6348F5E32B9E982500AF5627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94K26P27D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.demo.SobotPushDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SobotPushDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SobotPushDemo";
+			};
+			name = Release;
+		};
+		6348F5E52B9E982500AF5627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94K26P27D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.demo.SobotPushDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SobotPushDemo;
+			};
+			name = Debug;
+		};
+		6348F5E62B9E982500AF5627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94K26P27D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.demo.SobotPushDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SobotPushDemo;
+			};
+			name = Release;
+		};
+		6348F6102B9E9E5A00AF5627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SobotPushNotifiactionService/SobotPushNotifiactionService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94K26P27D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SobotPushNotifiactionService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SobotPushNotifiactionService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.demo.SobotPushDemo.SobotPushNotifiactionService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6348F6112B9E9E5A00AF5627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SobotPushNotifiactionService/SobotPushNotifiactionService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94K26P27D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SobotPushNotifiactionService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SobotPushNotifiactionService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.demo.SobotPushDemo.SobotPushNotifiactionService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6348F5AA2B9E982200AF5627 /* Build configuration list for PBXProject "SobotPushDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6348F5DC2B9E982500AF5627 /* Debug */,
+				6348F5DD2B9E982500AF5627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6348F5DE2B9E982500AF5627 /* Build configuration list for PBXNativeTarget "SobotPushDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6348F5DF2B9E982500AF5627 /* Debug */,
+				6348F5E02B9E982500AF5627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6348F5E12B9E982500AF5627 /* Build configuration list for PBXNativeTarget "SobotPushDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6348F5E22B9E982500AF5627 /* Debug */,
+				6348F5E32B9E982500AF5627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6348F5E42B9E982500AF5627 /* Build configuration list for PBXNativeTarget "SobotPushDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6348F5E52B9E982500AF5627 /* Debug */,
+				6348F5E62B9E982500AF5627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6348F60F2B9E9E5A00AF5627 /* Build configuration list for PBXNativeTarget "SobotPushNotifiactionService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6348F6102B9E9E5A00AF5627 /* Debug */,
+				6348F6112B9E9E5A00AF5627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6348F5A72B9E982200AF5627 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module SobotPush {
+  umbrella header "SobotPush.h"
+  export *
+
+  module * { export * }
+}
